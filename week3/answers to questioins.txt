@@ -1,0 +1,19 @@
+[Q1.1]Identifytheexactinflectionpoint(corecountp*)whereyourobservedspeedupcurveflattensordegrades.
+Correlatethisdirectlytoyourmachine'sphysicalhardwaretopology(distinguishbetweenphysicalPerformancecores,
+Efficiencycores,andlogicalSMThyperthreads).
+
+The computer reports 12 logical CPUs. This benchmark shows that using more than 12 workers causes extra CPU and scheduling overhead. However, os.cpu_count() alone cannot show how many are Performance cores, Efficiency cores, or SMT threads.
+
+[Q1.2]UsingyourempiricalmeasurementsforT(1)andT(4),calculatetheexactvalueofP(theparallelfraction)ofthis
+workloadonyoursilicon.Showthecompletealgebraicderivation:S(4)=T(1)/T(4)=1/[(1-P)+P/4].
+
+T(1)=12.5865s, T(4)=3.7760s
+S(4)= 3.333
+P = 0.93
+
+[Q1.3]ComputetheAsymptoticSpeedupLimitS_max=lim(p->inf)S(p)=1/(1-P)usingyourcalculatedPfromQ1.2.
+Explainwhatthislimitimpliesifyourdepartmentpurchaseda128-coreservernodetorunthisspecificworkload.
+P=0.93 
+S_max = 1/(1-0.93)
+S_max = 14.28
+This means the maximum theoretical speedup is about 15×, even with an unlimited number of cores. Therefore, a 128-core server would not provide 128× speedup for this workload because the serial part limits the performance.
