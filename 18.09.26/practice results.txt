@@ -1,0 +1,35 @@
+Part1
+1st time pi = 2.34470096
+2nd time pi = 2.53687752
+3rd time pi = 2.54400736
+4th time pi = 2.52336624
+5th time pi = 2.70387544
+
+Part2
+Single Thread
+Pi = 3.14176336
+Time = 1504.979 ms
+4 Threads + AtomicLong
+Pi = 3.14178216
+Time = 1249.4195 ms
+
+Single Thread
+Pi = 3.14154896
+Time = 1496.4907 ms
+4 Threads + AtomicLong
+Pi = 3.14170248
+Time = 1110.0936 ms
+
+4 Threads + AtomicLong is faster than Single Thread
+
+Part3
+Threads: 1 | Pi: 3.14172744 | Time: 1283.233 ms
+Threads: 2 | Pi: 3.14155544 | Time: 560.8474 ms
+Threads: 4 | Pi: 3.14180312 | Time: 272.3455 ms
+Threads: 8 | Pi: 3.1418796 | Time: 143.0999 ms
+Threads: 16 | Pi: 3.14128136 | Time: 138.654 ms
+Threads: 32 | Pi: 3.14172504 | Time: 108.6185 ms
+
+An 8-core CPU cannot provide linear speedup when more threads are added because threads share CPU cores, caches, and memory resources. When the number of threads exceeds the available cores, the operating system has to schedule multiple threads on the same cores, so the performance gain becomes smaller.
+
+In my experiment, the synchronized version was not slower than the single-threaded version. The 4-thread AtomicLong version took 1249.42 ms, compared with 1504.98 ms for the single-threaded version. The parallel execution provided enough speedup to compensate for the synchronization overhead. However, AtomicLong still introduces overhead because multiple threads compete to update the same shared counter.
