@@ -1,0 +1,418 @@
+2.4
+Task 1.1
+1) --- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 3376
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 14128
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 18276
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 3376
+--- Joined thread team. Execution returned to serial master ---
+
+2) PS C:\Users\asema\OneDrive\Рабочий стол\Advanced PM\314_17-09_230103284\25.09.26> py starter.py
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 18380
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 3500
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 18896
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 18380
+--- Joined thread team. Execution returned to serial master ---
+
+3) PS C:\Users\asema\OneDrive\Рабочий стол\Advanced PM\314_17-09_230103284\25.09.26> py starter.py
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 18644
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 18468
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 18644
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 13648
+--- Joined thread team. Execution returned to serial master ---
+
+4) PS C:\Users\asema\OneDrive\Рабочий стол\Advanced PM\314_17-09_230103284\25.09.26> py starter.py
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 11624
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 11624
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 11624
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 9432
+--- Joined thread team. Execution returned to serial master ---
+
+5) PS C:\Users\asema\OneDrive\Рабочий стол\Advanced PM\314_17-09_230103284\25.09.26> py starter.py
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 12564
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 9796
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 2056
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 12564
+--- Joined thread team. Execution returned to serial master ---
+
+6) PS C:\Users\asema\OneDrive\Рабочий стол\Advanced PM\314_17-09_230103284\25.09.26> py starter.py
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 8164
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 5608
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 17512
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 8164
+--- Joined thread team. Execution returned to serial master ---
+
+7) PS C:\Users\asema\OneDrive\Рабочий стол\Advanced PM\314_17-09_230103284\25.09.26> py starter.py
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 6608
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 8784
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 15080
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 6608
+--- Joined thread team. Execution returned to serial master ---
+
+8) PS C:\Users\asema\OneDrive\Рабочий стол\Advanced PM\314_17-09_230103284\25.09.26> py starter.py
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 7160
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 20080
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 7160
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 16740
+--- Joined thread team. Execution returned to serial master ---
+
+9) PS C:\Users\asema\OneDrive\Рабочий стол\Advanced PM\314_17-09_230103284\25.09.26> py starter.py
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 18044
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 16568
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 18044
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 15556
+--- Joined thread team. Execution returned to serial master ---
+
+10) PS C:\Users\asema\OneDrive\Рабочий стол\Advanced PM\314_17-09_230103284\25.09.26> py starter.py
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 11404
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 10272
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 14868
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 11404
+--- Joined thread team. Execution returned to serial master ---
+
+Task 1.2
+--- Forking a team of 1 threads ---
+[Master] Logical Rank: 0 of 1 | Native OS TID: 14260
+--- Joined thread team. Execution returned to serial master ---
+Threads: 1 | Time: 0.002217 seconds
+
+--- Forking a team of 2 threads ---
+[Master] Logical Rank: 0 of 2 | Native OS TID: 5740
+[Worker] Logical Rank: 1 of 2 | Native OS TID: 5740
+--- Joined thread team. Execution returned to serial master ---
+Threads: 2 | Time: 0.002939 seconds
+
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 18888
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 18284
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 18888
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 18528
+--- Joined thread team. Execution returned to serial master ---
+Threads: 4 | Time: 0.004918 seconds
+
+--- Forking a team of 8 threads ---
+[Master] Logical Rank: 0 of 8 | Native OS TID: 17684
+[Worker] Logical Rank: 3 of 8 | Native OS TID: 19724
+[Worker] Logical Rank: 1 of 8 | Native OS TID: 17684
+[Worker] Logical Rank: 6 of 8 | Native OS TID: 17684
+[Worker] Logical Rank: 4 of 8 | Native OS TID: 19724
+[Worker] Logical Rank: 2 of 8 | Native OS TID: 6980
+[Worker] Logical Rank: 7 of 8 | Native OS TID: 7712
+[Worker] Logical Rank: 5 of 8 | Native OS TID: 12908
+--- Joined thread team. Execution returned to serial master ---
+Threads: 8 | Time: 0.006655 seconds
+
+--- Forking a team of 16 threads ---
+[Master] Logical Rank: 0 of 16 | Native OS TID: 2404
+[Worker] Logical Rank: 3 of 16 | Native OS TID: 17792
+[Worker] Logical Rank: 1 of 16 | Native OS TID: 2404
+[Worker] Logical Rank: 6 of 16 | Native OS TID: 19100
+[Worker] Logical Rank: 4 of 16 | Native OS TID: 17792
+[Worker] Logical Rank: 2 of 16 | Native OS TID: 15852
+[Worker] Logical Rank: 9 of 16 | Native OS TID: 19100
+[Worker] Logical Rank: 5 of 16 | Native OS TID: 4944
+[Worker] Logical Rank: 12 of 16 | Native OS TID: 19748
+[Worker] Logical Rank: 8 of 16 | Native OS TID: 2220
+[Worker] Logical Rank: 15 of 16 | Native OS TID: 18344
+[Worker] Logical Rank: 13 of 16 | Native OS TID: 19100
+[Worker] Logical Rank: 7 of 16 | Native OS TID: 2404
+[Worker] Logical Rank: 10 of 16 | Native OS TID: 17792
+[Worker] Logical Rank: 11 of 16 | Native OS TID: 15852
+[Worker] Logical Rank: 14 of 16 | Native OS TID: 9840
+--- Joined thread team. Execution returned to serial master ---
+Threads: 16 | Time: 0.010010 seconds
+
+--- Forking a team of 32 threads ---
+[Master] Logical Rank: 0 of 32 | Native OS TID: 12592
+[Worker] Logical Rank: 3 of 32 | Native OS TID: 18948
+[Worker] Logical Rank: 1 of 32 | Native OS TID: 12592
+[Worker] Logical Rank: 6 of 32 | Native OS TID: 12592
+[Worker] Logical Rank: 4 of 32 | Native OS TID: 18948
+[Worker] Logical Rank: 2 of 32 | Native OS TID: 9932
+[Worker] Logical Rank: 9 of 32 | Native OS TID: 18948
+[Worker] Logical Rank: 7 of 32 | Native OS TID: 12592
+[Worker] Logical Rank: 5 of 32 | Native OS TID: 8208
+[Worker] Logical Rank: 15 of 32 | Native OS TID: 8208
+[Worker] Logical Rank: 8 of 32 | Native OS TID: 17208
+[Worker] Logical Rank: 11 of 32 | Native OS TID: 9932
+[Worker] Logical Rank: 12 of 32 | Native OS TID: 18948
+[Worker] Logical Rank: 18 of 32 | Native OS TID: 17144
+[Worker] Logical Rank: 14 of 32 | Native OS TID: 19520
+[Worker] Logical Rank: 21 of 32 | Native OS TID: 9932
+[Worker] Logical Rank: 10 of 32 | Native OS TID: 412
+[Worker] Logical Rank: 19 of 32 | Native OS TID: 17208
+[Worker] Logical Rank: 13 of 32 | Native OS TID: 12592
+[Worker] Logical Rank: 16 of 32 | Native OS TID: 19756
+[Worker] Logical Rank: 22 of 32 | Native OS TID: 17996
+[Worker] Logical Rank: 25 of 32 | Native OS TID: 17144
+[Worker] Logical Rank: 30 of 32 | Native OS TID: 20084
+[Worker] Logical Rank: 27 of 32 | Native OS TID: 19520
+[Worker] Logical Rank: 20 of 32 | Native OS TID: 3888
+[Worker] Logical Rank: 26 of 32 | Native OS TID: 15372
+[Worker] Logical Rank: 31 of 32 | Native OS TID: 412
+[Worker] Logical Rank: 29 of 32 | Native OS TID: 9932
+[Worker] Logical Rank: 17 of 32 | Native OS TID: 8208
+[Worker] Logical Rank: 24 of 32 | Native OS TID: 10600
+[Worker] Logical Rank: 23 of 32 | Native OS TID: 18948
+[Worker] Logical Rank: 28 of 32 | Native OS TID: 8064
+--- Joined thread team. Execution returned to serial master ---
+Threads: 32 | Time: 0.017782 seconds
+
+--- Forking a team of 64 threads ---
+[Master] Logical Rank: 0 of 64 | Native OS TID: 16976
+[Worker] Logical Rank: 1 of 64 | Native OS TID: 16976
+[Worker] Logical Rank: 3 of 64 | Native OS TID: 16976
+[Worker] Logical Rank: 6 of 64 | Native OS TID: 11412
+[Worker] Logical Rank: 2 of 64 | Native OS TID: 18140
+[Worker] Logical Rank: 4 of 64 | Native OS TID: 5320
+[Worker] Logical Rank: 9 of 64 | Native OS TID: 18140
+[Worker] Logical Rank: 5 of 64 | Native OS TID: 16976
+[Worker] Logical Rank: 13 of 64 | Native OS TID: 18140
+[Worker] Logical Rank: 10 of 64 | Native OS TID: 11400
+[Worker] Logical Rank: 7 of 64 | Native OS TID: 1768
+[Worker] Logical Rank: 12 of 64 | Native OS TID: 12264
+[Worker] Logical Rank: 8 of 64 | Native OS TID: 11412
+[Worker] Logical Rank: 15 of 64 | Native OS TID: 16976
+[Worker] Logical Rank: 11 of 64 | Native OS TID: 5320
+[Worker] Logical Rank: 21 of 64 | Native OS TID: 5860
+[Worker] Logical Rank: 16 of 64 | Native OS TID: 18140
+[Worker] Logical Rank: 18 of 64 | Native OS TID: 15644
+[Worker] Logical Rank: 19 of 64 | Native OS TID: 1768
+[Worker] Logical Rank: 22 of 64 | Native OS TID: 11412
+[Worker] Logical Rank: 20 of 64 | Native OS TID: 12264
+[Worker] Logical Rank: 30 of 64 | Native OS TID: 18140
+[Worker] Logical Rank: 14 of 64 | Native OS TID: 10852
+[Worker] Logical Rank: 27 of 64 | Native OS TID: 18832
+[Worker] Logical Rank: 33 of 64 | Native OS TID: 9156
+[Worker] Logical Rank: 26 of 64 | Native OS TID: 5320
+[Worker] Logical Rank: 24 of 64 | Native OS TID: 16976
+[Worker] Logical Rank: 31 of 64 | Native OS TID: 13736
+[Worker] Logical Rank: 34 of 64 | Native OS TID: 1768
+[Worker] Logical Rank: 39 of 64 | Native OS TID: 12328
+[Worker] Logical Rank: 42 of 64 | Native OS TID: 10852
+[Worker] Logical Rank: 35 of 64 | Native OS TID: 15032
+[Worker] Logical Rank: 37 of 64 | Native OS TID: 17756
+[Worker] Logical Rank: 41 of 64 | Native OS TID: 11128
+[Worker] Logical Rank: 43 of 64 | Native OS TID: 17880
+[Worker] Logical Rank: 36 of 64 | Native OS TID: 11412
+[Worker] Logical Rank: 48 of 64 | Native OS TID: 19936
+[Worker] Logical Rank: 32 of 64 | Native OS TID: 15644
+[Worker] Logical Rank: 51 of 64 | Native OS TID: 13736
+[Worker] Logical Rank: 23 of 64 | Native OS TID: 17828
+[Worker] Logical Rank: 49 of 64 | Native OS TID: 16976
+[Worker] Logical Rank: 40 of 64 | Native OS TID: 18140
+[Worker] Logical Rank: 50 of 64 | Native OS TID: 8740
+[Worker] Logical Rank: 38 of 64 | Native OS TID: 12264
+[Worker] Logical Rank: 17 of 64 | Native OS TID: 11400
+[Worker] Logical Rank: 52 of 64 | Native OS TID: 1768
+[Worker] Logical Rank: 45 of 64 | Native OS TID: 15476
+[Worker] Logical Rank: 53 of 64 | Native OS TID: 20260
+[Worker] Logical Rank: 63 of 64 | Native OS TID: 11128
+[Worker] Logical Rank: 44 of 64 | Native OS TID: 18832
+[Worker] Logical Rank: 61 of 64 | Native OS TID: 11088
+[Worker] Logical Rank: 54 of 64 | Native OS TID: 12328
+[Worker] Logical Rank: 28 of 64 | Native OS TID: 5860
+[Worker] Logical Rank: 62 of 64 | Native OS TID: 17544
+[Worker] Logical Rank: 60 of 64 | Native OS TID: 17756
+[Worker] Logical Rank: 58 of 64 | Native OS TID: 15032
+[Worker] Logical Rank: 56 of 64 | Native OS TID: 10852
+[Worker] Logical Rank: 46 of 64 | Native OS TID: 9156
+[Worker] Logical Rank: 59 of 64 | Native OS TID: 4132
+[Worker] Logical Rank: 57 of 64 | Native OS TID: 17184
+[Worker] Logical Rank: 29 of 64 | Native OS TID: 12204
+[Worker] Logical Rank: 47 of 64 | Native OS TID: 5320
+[Worker] Logical Rank: 25 of 64 | Native OS TID: 12344
+[Worker] Logical Rank: 55 of 64 | Native OS TID: 18816
+--- Joined thread team. Execution returned to serial master ---
+Threads: 64 | Time: 0.036856 seconds
+
+
+===== SUMMARY =====
+P =  1 | Time = 0.002217 seconds
+P =  2 | Time = 0.002939 seconds
+P =  4 | Time = 0.004918 seconds
+P =  8 | Time = 0.006655 seconds
+P = 16 | Time = 0.010010 seconds
+P = 32 | Time = 0.017782 seconds
+P = 64 | Time = 0.036856 seconds
+
+Task 1.3
+
+--- Running 1 threads ---
+Thread 0 of 1 | Native OS TID: 6912 | Result: 21081849486.44
+Threads: 1 | Time: 1.174 seconds
+
+--- Running 2 threads ---
+Thread 0 of 2 | Native OS TID: 4560 | Result: 21081849486.44
+Thread 1 of 2 | Native OS TID: 7028 | Result: 21081849486.44
+Threads: 2 | Time: 2.421 seconds
+
+--- Running 4 threads ---
+Thread 0 of 4 | Native OS TID: 14976 | Result: 21081849486.44
+Thread 1 of 4 | Native OS TID: 4188 | Result: 21081849486.44
+Thread 3 of 4 | Native OS TID: 16052 | Result: 21081849486.44
+Thread 2 of 4 | Native OS TID: 14756 | Result: 21081849486.44
+Threads: 4 | Time: 5.344 seconds
+
+--- Running 8 threads ---
+Thread 2 of 8 | Native OS TID: 14300 | Result: 21081849486.44
+Thread 5 of 8 | Native OS TID: 9300 | Result: 21081849486.44
+Thread 0 of 8 | Native OS TID: 19380 | Result: 21081849486.44
+Thread 7 of 8 | Native OS TID: 19312 | Result: 21081849486.44
+Thread 3 of 8 | Native OS TID: 11836 | Result: 21081849486.44
+Thread 4 of 8 | Native OS TID: 14148 | Result: 21081849486.44
+Thread 1 of 8 | Native OS TID: 19672 | Result: 21081849486.44
+Thread 6 of 8 | Native OS TID: 5296 | Result: 21081849486.44
+Threads: 8 | Time: 12.607 seconds
+
+--- Running 16 threads ---
+Thread 4 of 16 | Native OS TID: 18436 | Result: 21081849486.44
+Thread 2 of 16 | Native OS TID: 10388 | Result: 21081849486.44
+Thread 3 of 16 | Native OS TID: 9972 | Result: 21081849486.44
+Thread 1 of 16 | Native OS TID: 18152 | Result: 21081849486.44
+Thread 8 of 16 | Native OS TID: 13324 | Result: 21081849486.44
+Thread 7 of 16 | Native OS TID: 7276 | Result: 21081849486.44
+Thread 5 of 16 | Native OS TID: 17924 | Result: 21081849486.44
+Thread 9 of 16 | Native OS TID: 6520 | Result: 21081849486.44
+Thread 0 of 16 | Native OS TID: 2624 | Result: 21081849486.44
+Thread 11 of 16 | Native OS TID: 14876 | Result: 21081849486.44
+Thread 12 of 16 | Native OS TID: 15744 | Result: 21081849486.44
+Thread 6 of 16 | Native OS TID: 16372 | Result: 21081849486.44
+Thread 13 of 16 | Native OS TID: 10820 | Result: 21081849486.44
+Thread 10 of 16 | Native OS TID: 16704 | Result: 21081849486.44
+Thread 15 of 16 | Native OS TID: 420 | Result: 21081849486.44
+Thread 14 of 16 | Native OS TID: 2944 | Result: 21081849486.44
+Threads: 16 | Time: 20.753 seconds
+
+--- Running 32 threads ---
+Thread 0 of 32 | Native OS TID: 19636 | Result: 21081849486.44
+Thread 1 of 32 | Native OS TID: 17652 | Result: 21081849486.44
+Thread 3 of 32 | Native OS TID: 8520 | Result: 21081849486.44
+Thread 2 of 32 | Native OS TID: 17812 | Result: 21081849486.44
+Thread 5 of 32 | Native OS TID: 19864 | Result: 21081849486.44
+Thread 4 of 32 | Native OS TID: 10476 | Result: 21081849486.44
+Thread 13 of 32 | Native OS TID: 3448 | Result: 21081849486.44
+Thread 16 of 32 | Native OS TID: 12164 | Result: 21081849486.44
+Thread 12 of 32 | Native OS TID: 14092 | Result: 21081849486.44
+Thread 9 of 32 | Native OS TID: 18676 | Result: 21081849486.44
+Thread 8 of 32 | Native OS TID: 19308 | Result: 21081849486.44
+Thread 11 of 32 | Native OS TID: 20148 | Result: 21081849486.44
+Thread 15 of 32 | Native OS TID: 8352 | Result: 21081849486.44
+Thread 6 of 32 | Native OS TID: 20168 | Result: 21081849486.44
+Thread 10 of 32 | Native OS TID: 2008 | Result: 21081849486.44
+Thread 7 of 32 | Native OS TID: 17192 | Result: 21081849486.44
+Thread 14 of 32 | Native OS TID: 14676 | Result: 21081849486.44
+Thread 17 of 32 | Native OS TID: 14192 | Result: 21081849486.44
+Thread 18 of 32 | Native OS TID: 13528 | Result: 21081849486.44
+Thread 24 of 32 | Native OS TID: 4904 | Result: 21081849486.44
+Thread 19 of 32 | Native OS TID: 9796 | Result: 21081849486.44
+Thread 22 of 32 | Native OS TID: 2276 | Result: 21081849486.44
+Thread 21 of 32 | Native OS TID: 3540 | Result: 21081849486.44
+Thread 23 of 32 | Native OS TID: 12088 | Result: 21081849486.44
+Thread 25 of 32 | Native OS TID: 1376 | Result: 21081849486.44
+Thread 20 of 32 | Native OS TID: 3120 | Result: 21081849486.44
+Thread 29 of 32 | Native OS TID: 15664 | Result: 21081849486.44
+Thread 30 of 32 | Native OS TID: 6988 | Result: 21081849486.44
+Thread 28 of 32 | Native OS TID: 3200 | Result: 21081849486.44
+Thread 26 of 32 | Native OS TID: 18656 | Result: 21081849486.44
+Thread 27 of 32 | Native OS TID: 9940 | Result: 21081849486.44
+Thread 31 of 32 | Native OS TID: 12096 | Result: 21081849486.44
+Threads: 32 | Time: 46.540 seconds
+
+--- Running 64 threads ---
+Thread 1 of 64 | Native OS TID: 5108 | Result: 21081849486.44
+Thread 2 of 64 | Native OS TID: 1292 | Result: 21081849486.44
+Thread 12 of 64 | Native OS TID: 3940 | Result: 21081849486.44
+Thread 5 of 64 | Native OS TID: 17820 | Result: 21081849486.44
+Thread 11 of 64 | Native OS TID: 12372 | Result: 21081849486.44
+Thread 0 of 64 | Native OS TID: 13096 | Result: 21081849486.44
+Thread 6 of 64 | Native OS TID: 11948 | Result: 21081849486.44
+Thread 7 of 64 | Native OS TID: 10136 | Result: 21081849486.44
+Thread 17 of 64 | Native OS TID: 19280 | Result: 21081849486.44
+Thread 14 of 64 | Native OS TID: 2096 | Result: 21081849486.44
+Thread 18 of 64 | Native OS TID: 9028 | Result: 21081849486.44
+Thread 13 of 64 | Native OS TID: 18700 | Result: 21081849486.44
+Thread 3 of 64 | Native OS TID: 19600 | Result: 21081849486.44
+Thread 4 of 64 | Native OS TID: 8404 | Result: 21081849486.44
+Thread 9 of 64 | Native OS TID: 20380 | Result: 21081849486.44
+Thread 10 of 64 | Native OS TID: 13128 | Result: 21081849486.44
+Thread 19 of 64 | Native OS TID: 15552 | Result: 21081849486.44
+Thread 15 of 64 | Native OS TID: 5680 | Result: 21081849486.44
+Thread 16 of 64 | Native OS TID: 15320 | Result: 21081849486.44
+Thread 26 of 64 | Native OS TID: 5532 | Result: 21081849486.44
+Thread 8 of 64 | Native OS TID: 18440 | Result: 21081849486.44
+Thread 23 of 64 | Native OS TID: 14328 | Result: 21081849486.44
+Thread 22 of 64 | Native OS TID: 948 | Result: 21081849486.44
+Thread 38 of 64 | Native OS TID: 20136 | Result: 21081849486.44
+Thread 20 of 64 | Native OS TID: 9176 | Result: 21081849486.44
+Thread 34 of 64 | Native OS TID: 5108 | Result: 21081849486.44
+Thread 29 of 64 | Native OS TID: 14428 | Result: 21081849486.44
+Thread 21 of 64 | Native OS TID: 16932 | Result: 21081849486.44
+Thread 44 of 64 | Native OS TID: 14228 | Result: 21081849486.44
+Thread 28 of 64 | Native OS TID: 15164 | Result: 21081849486.44
+Thread 31 of 64 | Native OS TID: 17504 | Result: 21081849486.44
+Thread 30 of 64 | Native OS TID: 17144 | Result: 21081849486.44
+Thread 39 of 64 | Native OS TID: 7452 | Result: 21081849486.44
+Thread 25 of 64 | Native OS TID: 4056 | Result: 21081849486.44
+Thread 45 of 64 | Native OS TID: 5816 | Result: 21081849486.44
+Thread 41 of 64 | Native OS TID: 3940 | Result: 21081849486.44
+Thread 27 of 64 | Native OS TID: 8764 | Result: 21081849486.44
+Thread 48 of 64 | Native OS TID: 12372 | Result: 21081849486.44
+Thread 47 of 64 | Native OS TID: 13536 | Result: 21081849486.44
+Thread 33 of 64 | Native OS TID: 4272 | Result: 21081849486.44
+Thread 43 of 64 | Native OS TID: 7940 | Result: 21081849486.44
+Thread 61 of 64 | Native OS TID: 18700 | Result: 21081849486.44
+Thread 32 of 64 | Native OS TID: 18468 | Result: 21081849486.44
+Thread 51 of 64 | Native OS TID: 13096 | Result: 21081849486.44
+Thread 54 of 64 | Native OS TID: 10136 | Result: 21081849486.44
+Thread 56 of 64 | Native OS TID: 5056 | Result: 21081849486.44
+Thread 50 of 64 | Native OS TID: 4816 | Result: 21081849486.44
+Thread 35 of 64 | Native OS TID: 15732 | Result: 21081849486.44
+Thread 40 of 64 | Native OS TID: 17240 | Result: 21081849486.44
+Thread 37 of 64 | Native OS TID: 1292 | Result: 21081849486.44
+Thread 57 of 64 | Native OS TID: 2096 | Result: 21081849486.44
+Thread 36 of 64 | Native OS TID: 19788 | Result: 21081849486.44
+Thread 49 of 64 | Native OS TID: 18788 | Result: 21081849486.44
+Thread 24 of 64 | Native OS TID: 5072 | Result: 21081849486.44
+Thread 42 of 64 | Native OS TID: 18576 | Result: 21081849486.44
+Thread 60 of 64 | Native OS TID: 5708 | Result: 21081849486.44
+Thread 59 of 64 | Native OS TID: 3500 | Result: 21081849486.44
+Thread 62 of 64 | Native OS TID: 19600 | Result: 21081849486.44
+Thread 52 of 64 | Native OS TID: 6684 | Result: 21081849486.44
+Thread 63 of 64 | Native OS TID: 20380 | Result: 21081849486.44
+Thread 58 of 64 | Native OS TID: 9028 | Result: 21081849486.44
+Thread 46 of 64 | Native OS TID: 17820 | Result: 21081849486.44
+Thread 53 of 64 | Native OS TID: 11948 | Result: 21081849486.44
+Thread 55 of 64 | Native OS TID: 19280 | Result: 21081849486.44
+Threads: 64 | Time: 86.237 seconds
+
+Question 1.1
+Thread IDs can print in different orders because the OS scheduler decides which thread gets CPU time and when. The scheduler can switch between threads unpredictably, so the execution order changes between runs. The CPU cores and OS scheduler control this behavior.
+
+Question 1.2
+When P is greater than the number of physical CPU cores, threads compete for the same cores. This causes:
+
+Context switching: the CPU switches between threads.
+Thread state preservation:  the OS must save the current thread's registers/state and load another thread's state.
+Cache thrashing: threads replace each other's data in the CPU cache, causing more cache misses.
+
+As a result, performance can become slower instead of faster.
+
+Qusetion 1.3 
+An implicit barrier at the end of an OpenMP parallel region makes all threads wait until every thread has finished its work.
+
+Without the barrier, some threads could start the next code block while others are still working. This could cause race conditions, incorrect results, or one thread using incomplete data.
+
+Questioin 1.4
+Hardware thread (SMT/Hyper-Threading) = A hardware-supported execution context inside a CPU core. One physical core can run multiple hardware threads.
+OS kernel thread = A thread managed and scheduled directly by the operating system.
+Green/virtual thread = A lightweight thread managed by a programming language/runtime rather than directly by the OS.

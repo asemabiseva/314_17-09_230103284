@@ -1,0 +1,6 @@
+Task 2.1
+===== VARIANT A: NAIVE RACE =====
+P = 1 | Pi = 3.141592653590 | Error = 6.33e-13 | Time = 0.1333s
+P = 2 | Pi = 1.854590436003 | Error = 1.29e+00 | Time = 0.0685s
+P = 4 | Pi = 0.567588218417 | Error = 2.57e+00 | Time = 0.0642s
+P = 8 | Pi = 0.497419978187 | Error = 2.64e+00 | Time = 0.0292s
