@@ -1,0 +1,57 @@
+challange 1:
+B. The warm-up is needed because Numba compiles the code during the first run. 
+Without it, the benchmark time would include compilation time and give an inaccurate result.
+C. No. The parallel efficiency decreased as the number of threads increased.
+This happens because the CPU has a limited number of physical cores.
+D. inside_circle += 1 does not corrupt the count because Numba automatically recognizes it as a reduction operation.
+It generates an implicit sum reduction (reduction(+:inside_circle)), where each thread keeps its own count and the counts are combined at the end.
+
+Challange 2:
+B. NumPy uses row-major memory, so elements in the same row are next to each other in memory. 
+Therefore, writing img[r, c] is cache-friendly. 
+Writing by columns is less cache-friendly because memory access jumps between rows, causing more cache misses.
+C.The Mandelbrot center is more computationally expensive than the edges. 
+If one thread gets the center rows, it needs much more time, while another thread with easier rows finishes early and becomes idle.
+Dynamic scheduling solves this by giving threads new rows as soon as they finish their current work, helping balance the workload.
+
+Challange 3:
+B. before:
+Heat Diffusion Complete: 1.098 s
+Throughput: 614.88 Megacells/sec
+after:
+Heat Diffusion Complete: 0.539 s
+Throughput: 1252.27 Megacells/sec
+
+Speedup factor = 2,037
+float32 uses half the memory of float64, so less data must be moved between RAM and CPU cache. 
+Since stencil calculations are mainly memory-bandwidth limited, reducing memory traffic can improve performance significantly.
+
+C.More cores cannot help much after the memory bandwidth limit is reached.
+
+
+
+
+Benchmark Challenge |  Active Threads  |  Array Size/Samples | Time s | Speedup Factor | Efficiency (%)
+Challenge 1: 
+Monte Carlo           1 Thread (Base)     120,000,000         3.0369         1.00x        100.0%
+
+Challenge 1: 
+Monte Carlo            2 Threads          120,000,000         1.7789         1.71         85.4 
+
+Challenge 1: 
+Monte Carlo            4 Threads          120,000,000         0.9160         3.32         82.9 
+
+Challenge 1: 
+Monte Carlo           Max Threads(12)     120,000,000         0.5416         5.61         46.7
+
+Challenge 2: 
+Mandelbrot 
+(Rows)                Max Threads         2500 x 2500         1.943         N/A         N/A
+
+Challenge 2: 
+Mandelbrot 
+(Cols)                Max Threads          2500 x 2500        1.829          N/A         N/A
+
+Challenge 3: Heat 
+Stencil               Max Threads          1500 x 1500 x      1.098 s        N/A         N/A
+                                                300       614.88 Megacells/sec
